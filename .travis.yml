@@ -1,7 +1,9 @@
-language:python
+sudo: false
+
+language: python
 
 python:
-  - "3.6"
-
+  - 3.6
+  
 script:
-  - true
+  - python run test.py
